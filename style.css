@@ -1,0 +1,89 @@
+/* https://www.youtube.com/watch?v=_rmSp20X4wo */
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ec1022f5, #0832eb); 
+}
+#main{
+    height: 85%;
+    width:100%;
+   
+    display: flex;
+    padding: 5vw 10vw;
+}
+#left{
+    height: 100%;
+    width:45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+#right{
+    height: 100%;
+    width: 55%;
+    background-image: linear-gradient(to bottom, #ec1022f5, #0832eb); 
+    padding: 0vw 5vw;
+}
+#right>h4{
+    font-size: 40px;
+    -webkit-text-stroke: 2px rgba(78, 85, 85, 0.445);
+}
+#Player{
+    height: 15%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+#Player h2{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50%;
+}
+#Player h2:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+#Player h2:active{
+    scale: 0.9;
+}
+#Player i{
+    font-size: 26px;
+    
+}
+
+.cards{
+margin-bottom: 15px;
+}
+.cards h2{
+    -webkit-text-stroke: 2px rgba(78, 85, 85, 0.445);
+
+}
+.insidecard{
+display: flex;
+}
+.insidecard img{
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+}
+
+#progress-bar {
+    width: 0;
+    height: 5px; 
+    background-color: #fffbfb; 
+    position: absolute; 
+    left: 45%; 
+}
